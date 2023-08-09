@@ -7,7 +7,6 @@ gem 'rails', '7.0.6'
 gem 'activeadmin', '~> 3.0'
 gem 'activeadmin_addons', '~> 1.10'
 gem 'active_material', '~> 1.5'
-gem 'acts_as_votable', '~> 0.14'
 gem 'barnes', '~> 0.0'
 gem 'bootsnap', '~> 1.16', require: false
 gem 'classy-yaml', '~> 0.8'
@@ -53,7 +52,7 @@ group :development do
   gem 'rubocop', '~> 1.53', require: false
   gem 'rubocop-performance', '~> 1.18', require: false
   gem 'rubocop-rails', '~> 2.20', require: false
-  gem 'rubocop-rspec', '~> 2.20', require: false
+  gem 'rubocop-rspec', '~> 2.23', require: false
   gem 'web-console', '~> 4.2'
 end
 
