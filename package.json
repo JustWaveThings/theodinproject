@@ -55,6 +55,7 @@
     "sass": "^1.70.0",
     "sass-loader": "^14.1.1",
     "shakapacker": "6.6",
+    "slim-select": "2.7.0",
     "sortablejs": "^1.15.0",
     "stimulus-use": "^0.51.3",
     "style-loader": "^3.3.4",
