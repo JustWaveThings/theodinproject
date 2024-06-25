@@ -17,6 +17,6 @@ class InterviewSurveysController < ApplicationController
   private
 
   def interview_survey_params
-    params.require(:interview_survey).permit(:name)
+    params.require(:interview_survey).permit(:name, :test)
   end
 end

@@ -15,6 +15,14 @@
               </div>
             </div>
 
+            <select data-controller="test">
+              <option value="value1">Value 1</option>
+              <option value="value2">Value 2</option>
+              <option value="value3">Value 3</option>
+              <option value='value4'>Value 4</option>
+            </select>
+
+
             <div class="mt-5 sm:flex sm:flex-row-reverse pt-4">
               <%= form.submit 'Save', class: 'cursor-pointer inline-flex w-full justify-center rounded-md button--primary px-5 py-2 text-sm font-semibold text-white shadow-sm sm:ml-3 sm:w-auto' %>
               <button type="button" data-action="click->modal#close" class="button--white mt-3 inline-flex w-full justify-center sm:mt-0 sm:w-auto">Cancel</button>
